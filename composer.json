@@ -1,7 +1,16 @@
 {
-    "name": "simplew/php",
+    "name": "simplew/framework",
     "description": "A simple PHP MVC framework",
+    "keywords": ["php", "mvc", "framework"],
+    "homepage": "https://github.com/rootasuser/simplew",
     "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Windel Navales",
+            "email": "windelvlog@email.com"
+        }
+    ],
     "require": {
         "php": ">=7.4"
     },
@@ -10,11 +19,15 @@
             "SimpleW\\": "src/"
         }
     },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Windel Navales",
-            "email": "windelvlog@email.com"
+    "autoload-dev": {
+        "psr-4": {
+            "SimpleW\\Tests\\": "tests/"
         }
-    ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "issues": "https://github.com/rootasuser/simplew/issues",
+        "source": "https://github.com/rootasuser/simplew"
+    }
 }
