@@ -1,23 +1,20 @@
 {
     "name": "simplew/php",
-    "description": "A simple PHP framework",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Windel Navales",
-            "email": "windelvlog@example.com"
-        }
-    ],
+    "description": "A simple PHP MVC framework",
+    "type": "library",
+    "require": {
+        "php": ">=7.4"
+    },
     "autoload": {
         "psr-4": {
             "SimpleW\\": "src/"
         }
     },
-    "bin": [
-        "bin/simplew"
-    ],
-    "require": {
-        "php": ">=7.4"
-    }
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Windel Navales",
+            "email": "windelvlog@email.com"
+        }
+    ]
 }
