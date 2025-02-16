@@ -3,7 +3,7 @@
     "description": "A simple PHP MVC framework",
     "keywords": ["php", "mvc", "framework"],
     "homepage": "https://github.com/rootasuser/simplew",
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
